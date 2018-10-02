@@ -7,7 +7,7 @@ public class NumberGame {
         System.out.println("I've randomly chosen a number between 1 & 100.");
         System.out.println("Try to Guess it.");
 
-        for (int i = 10; i > 0; i--) {
+        for (int i = 10; i >= 1; i--) {
             System.out.println("You have " + i + " guess(es) left. Try again.");
             int guess = sc.nextInt();
             if (randomNumber < guess)
